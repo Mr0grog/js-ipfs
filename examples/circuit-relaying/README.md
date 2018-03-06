@@ -35,7 +35,7 @@ This is how it looks like, in somewhat simplified steps:
    2. `Relay` extracts the destination address, figures out that a circuit to `Node B` is being requested
    3. `Relay` sends a `STOP` request to `Node B`
    4. `Node B` responds with a `SUCCESS` message
-   5. `Relay` proceed to creating a circuit over the two nodes
+   5. `Relay` proceed to create a circuit over the two nodes
 5. `Node A` and `Node B` are now connected over `Relay`
 
 Thats it!
