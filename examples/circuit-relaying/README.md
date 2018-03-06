@@ -42,7 +42,7 @@ Thats it!
 
 ### Whats up with this `HOP` and `STOP` nonsense?
 
-Circuit relay consists of two logical parts - dialer/listener and relay (`HOP`). The listener is also known as the `STOP` node. Each of this - dialer, listener and relay happen on a different node, during the relay flow.
+Circuit relay consists of two logical parts - dialer/listener and relay (`HOP`). The listener is also known as the `STOP` node. Each of this - dialer, listener and relay happen on a different node.
 
 - The dialer knows how to dial a relay (`HOP`)
 - The relay (`HOP`) knows how to contact a destination node (`STOP`) and create a circuit 
